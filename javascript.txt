@@ -1,0 +1,63 @@
+1. Javascript is an object-oriented, client-side, single threaded, high-level, dynamic programming language.
+2. Javascript is a programming that run through V8 engine. It's a interpreted or JIT compiled language. Just in time compiled(JIT).
+3. variable is an storage which can store a single data at a time in a programming language.
+4. declaring a variable: let myName = "Asaduzzaman Sohun".
+5. updating variable: myName = "Javascript lover".
+6. There are 8 javascript variable:
+    String,
+    Number,
+    Boolean,
+    Null,
+    Undefined,
+    BigInt, (greater than 2^53-1)
+    Symbol,
+    Object (array, object).
+
+7. There are two types of Data types:
+    1. Primitive Data Types (String, Number, Boolean, Null, Undefined, BigInt, Symbol)
+    2. Non-Primitive Data Types (Array, Object)
+
+    Primitive:
+        let myName = 'Asaduzzaman Sohun'
+        console.log(myName + " : " + typeof(myName));
+
+        let myNum = 21331312
+        console.log(myNum + " : " + typeof(myNum));
+
+        let myBool = true
+        console.log(myBool + " : " + typeof(myBool));
+
+        let nullValue = null;
+        console.log(nullValue + " : " + typeof(nullValue));
+
+        let undef;
+        console.log(undef + " : " + typeof(undef));
+
+        let bigNum = 21787812787238178388888888127871827818281287127981287127892137n
+        console.log(bigNum + " : " + typeof(bigNum));
+
+        let sym = Symbol("&, !")
+        console.log(sym, typeof(sym));
+
+    Non Primitive:
+        let myArray = [1, 5, 'Sohun', false, [3.14, 8], 2.8 ]
+        console.log(myArray + " : " + typeof(myArray));
+
+        let myObject = new Object();
+        console.log(typeof(myObject));
+
+8. Prohibited variable declaring style:
+    let 9var = 'prohibited'
+    let &var1 = 'prohibited'
+    let var two = 'prohibited'
+    let let = 'prohibited'
+    let 'var' = prohibited'
+    let 123 = 'prohibited'
+
+9. parseInt(): convert into integer value;
+   parseFloat(): convert into integer value;
+   toFixed(): fixed the decimal value;
+
+10. Array is the set of various type of data which is wrapped up with [] bracket.
+
+11. index value of -1 means this index/data doesn't exist. 
